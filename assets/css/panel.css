@@ -1,0 +1,71 @@
+/*
+ Plugin Name: WP Blockchain
+ Plugin URI: https://wp-blockchain.com
+ License: GPLv2 or later
+ Copyright (c) 2018, Good Rebels Inc.
+ WP Blockchain is free software: you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation, either version 2 of the License, or (at your option) any later version.
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ GNU General Public License for more details.
+ You should have received a copy of the GNU General Public License
+ along with this program. If not, see <https://www.gnu.org/licenses/gpl-2.0.html>.
+ Please feel free to contact us at wp-blockchain@goodrebels.com.
+ */
+.wpbc-stamps-table {
+  border-collapse: collapse;
+  background: white;
+  margin-right: 20px; }
+  .wpbc-stamps-table .wpbc-stamps-table-global-status-td i {
+    width: 18px;
+    text-align: center; }
+  .wpbc-stamps-table .wpbc-stamps-table-status-td i {
+    width: 20px;
+    border-right: 1px solid #ddd;
+    margin-right: 6px; }
+    .wpbc-stamps-table .wpbc-stamps-table-status-td > div {
+      white-space: nowrap; }
+  .wpbc-stamps-table .wpbc-hash-legend-stamp_base, .wpbc-stamps-table .wpbc-hash-legend-context_name {
+    font-size: 80%;
+    line-height: normal; }
+  .wpbc-stamps-table .wpbc-hash-legend-stamp_base, .wpbc-stamps-table .wpbc-hash-legend-context_name, .wpbc-stamps-table .wpbc-hash-legend-stamp_base a, .wpbc-stamps-table .wpbc-hash-legend-context_name a {
+    color: #777; }
+  .wpbc-stamps-table .wpbc-stamps-summary {
+    margin: 0 0 20px 0; }
+  .wpbc-stamps-table .wpbc-settings-toplinks {
+    margin: 10px 20px 15px 0; }
+  .wpbc-stamps-table th, .wpbc-stamps-table td {
+    padding: 4px 8px;
+    border: 1px solid #ddd; }
+  .wpbc-stamps-table td.wpbc-td-nopad {
+    padding: 1px; }
+  .wpbc-stamps-table td.wpbc-td-nopad select {
+    border: none;
+    padding: 4px 8px;
+    font-size: inherit;
+    width: 100%;
+    box-sizing: border-box;
+    box-shadow: none;
+    outline: 0; }
+  .wpbc-stamps-table .wpbc-stamps-table-before-first-to-update td {
+    border-bottom: 4px solid #ddd; }
+  .wpbc-stamps-table .wpbc-stamps-table-first-to-update td {
+    border-top: 4px solid #ddd; }
+  .wpbc-stamps-table th {
+    text-align: left; }
+  .wpbc-stamps-table a {
+    text-decoration: none; }
+  .wpbc-stamps-table a:hover {
+    text-decoration: underline; }
+  .wpbc-stamps-table .wpbc-stamps-table-actions {
+    white-space: nowrap; }
+    .wpbc-stamps-table .wpbc-stamps-table-actions a {
+      margin-left: 2px;
+      color: #ccc; }
+    .wpbc-stamps-table .wpbc-stamps-table-actions a:hover {
+      color: red; }
+    .wpbc-stamps-table .wpbc-stamps-table-actions a:active, .wpbc-stamps-table .wpbc-stamps-table-actions a:focus, .wpbc-stamps-table .wpbc-stamps-table-actions a {
+      outline: 0 !important;
+      box-shadow: none !important; }

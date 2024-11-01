@@ -1,0 +1,279 @@
+/*
+ Plugin Name: WP Blockchain
+ Plugin URI: https://wp-blockchain.com
+ License: GPLv2 or later
+ Copyright (c) 2018, Good Rebels Inc.
+ WP Blockchain is free software: you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation, either version 2 of the License, or (at your option) any later version.
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ GNU General Public License for more details.
+ You should have received a copy of the GNU General Public License
+ along with this program. If not, see <https://www.gnu.org/licenses/gpl-2.0.html>.
+ Please feel free to contact us at wp-blockchain@goodrebels.com.
+ */
+.wpbc-stamping table {
+  border: 0;
+  border-collapse: collapse;
+  width: 100%; }
+
+.wpbc-stamping table td {
+  border: 1px solid #ccc;
+  padding: 6px 10px;
+  line-height: 20px; }
+
+.wpbc-stamping-title {
+  font-size: 16px; }
+
+.wpbc-stamping-stamp {
+  padding: 5px 6px; }
+
+.wpbc-stamping-status .wpbc-status-label.wpbc-status-label-nolegend {
+  padding-top: 10px;
+  padding-bottom: 10px; }
+
+.wpbc-stamps-wrap .wpbc-stamp-wrap {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 7px;
+  margin-bottom: 8px; }
+
+.wpbc-stamps-wrap .wpbc-stamp-wrap:last-child {
+  border-bottom: none;
+  margin-bottom: 0; }
+
+.wpbc-stamp-wrap .wpbc-stamping-status-intro {
+  padding-bottom: 1px;
+  margin-bottom: 4px; }
+
+.wpbc-stamping-status-col .wpbc-stamp-inner {
+  padding-left: 10px; }
+
+.wpbc-copybox > span {
+  cursor: pointer; }
+
+.wpbc-copybox > input {
+  padding: 0;
+  margin: 0;
+  border: none !important;
+  background: transparent !important;
+  font-size: inherit !important;
+  width: 100%;
+  max-width: 100%; }
+
+.wpbc-status-ind.wpbc-status-ind-status-service_pending, .wpbc-status-ind.wpbc-status-ind-status-waiting, .wpbc-status-ind.wpbc-status-ind-status-stamping, .wpbc-status-ind.wpbc-status-ind-status-pending, .wpbc-button-theme-regular.wpbc-stamping-button.wpbc-stamping-button-status-stamping .wpbc-status, .wpbc-button-theme-regular.wpbc-stamping-button.wpbc-stamping-button-status-ready .wpbc-status.wpbc-stamping-loading, .wpbc-button-theme-regular.wpbc-stamping-button.wpbc-stamping-button-status-waiting .wpbc-status, .wpbc-button-theme-regular.wpbc-stamping-button.wpbc-stamping-button-status-pending .wpbc-status {
+  color: #ffa500;
+  padding: 6px 10px 6px 6px;
+  border: 2px solid #ffa500;
+  display: inline-block;
+  vertical-align: top;
+  background: white; }
+
+.wpbc-status-ind.wpbc-status-ind-status-confirmed, .wpbc-button-theme-regular.wpbc-stamping-button.wpbc-stamping-button-status-stamped .wpbc-status {
+  color: #4fff21;
+  padding: 6px 10px 6px 6px;
+  border: 2px solid #4fff21;
+  display: inline-block;
+  vertical-align: top;
+  box-shadow: 1px 1px 2px #eee; }
+
+.wpbc-status-ind a {
+  text-decoration: none;
+  color: inherit; }
+
+.wpbc-status-ind a:hover {
+  text-decoration: underline; }
+
+.wpbc-stamping table td.wpbc-stamping-status-td {
+  width: 400px;
+  max-width: 100%;
+  vertical-align: top; }
+
+a.wpbc-status, a.wpbc-status:hover, a.wpbc-status:focus, a.wpbc-status:active, .wpbc-status a, .wpbc-status a:hover, .wpbc-status a:focus, .wpbc-status a:active {
+  outline: none !important;
+  box-shadow: none !important;
+  -moz-outline-style: none !important; }
+
+.wpbc-button-theme-regular.wpbc-stamping-button .wpbc-status {
+  text-align: center;
+  vertical-align: top;
+  display: inline-block;
+  padding: 2px 15px;
+  text-decoration: none;
+  min-width: 164px;
+  width: auto;
+  box-sizing: border-box; }
+
+.wpbc-button-theme-regular.wpbc-stamping-button.wpbc-stamping-button-status-ready .wpbc-status {
+  border: 1px solid;
+  background: #f0f0f0; }
+
+.wpbc-stamping-status .wpbc-button-theme-regular .wpbc-status-label {
+  margin: 0;
+  font-size: 120%;
+  white-space: nowrap;
+  display: block;
+  width: auto;
+  padding: 0;
+  line-height: normal;
+  vertical-align: top;
+  box-sizing: border-box; }
+
+.wpbc-stamping-status .wpbc-button-theme-regular .wpbc-status-legend {
+  color: #777;
+  display: block;
+  vertical-align: top;
+  width: auto;
+  padding: 3px 0 0 0;
+  font-size: 12px;
+  line-height: normal;
+  box-sizing: border-box; }
+
+.wpbc-stamping-button.wpbc-stamping-button-status-ready .wpbc-status {
+  padding: 7px 6px; }
+/*
+ .wpbc-stamping-button.wpbc-stamping-button-bccount-3 .wpbc-status-label {
+ margin: 0 18px 0 0;
+ }
+ */
+.wpbc-stamping-status-box .wpbc-status, .wpbc-stamping-status-box .wpbc-button-theme-regular.wpbc-stamping-button .wpbc-status {
+  width: 100%;
+  max-width: 300px; }
+
+body.profile-php .wpbc-stamping-button .wpbc-status, body.user-edit-php .wpbc-stamping-button .wpbc-status {
+  background: white; }
+/* wpadminbar */
+#wpadminbar * {
+  height: auto;
+  width: auto;
+  margin: 0;
+  padding: 0;
+  position: static;
+  text-shadow: none;
+  text-transform: none;
+  letter-spacing: normal;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  -webkit-transition: none;
+  transition: none;
+  -webkit-font-smoothing: subpixel-antialiased;
+  -moz-osx-font-smoothing: auto; }
+
+#wpadminbar i.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+#wpadminbar .quicklinks .wpbc-topbar-stamp > div.ab-empty-item, #wpadminbar .wpbc-topbar-stamp > div {
+  padding: 0; }
+
+.wpbc-live-debug > div {
+  background: black !important;
+  color: white !important;
+  font-size: 10px;
+  margin-bottom: 2px;
+  padding: 1px 3px;
+  display: inline-block;
+  vertical-align: top; }
+
+#wpadminbar .wpbc-button-theme-light {
+  padding: 0 8px 0 7px;
+  display: inline-block;
+  vertical-align: top; }
+
+.wpbc-settings-message-code {
+  margin: 4px 0 0; }
+
+.wpbc-settings-message-code code {
+  background: #fafafa;
+  color: #333; }
+
+.wpbc-live-ind {
+  display: inline-block;
+  float: right;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: italic;
+  margin: 14px 2px 20px 0;
+  color: #999;
+  cursor: pointer;
+  opacity: 0; }
+
+.wpbc-live-paused-icon {
+  margin: 1px 5px 0 0; }
+
+.wpbc-stamping-status-col {
+  overflow: hidden;
+  position: relative; }
+
+.wpbc-stamping-status-col:hover {
+  overflow: visible;
+  z-index: 999; }
+
+.wpbc-hsep {
+  clear: both;
+  display: block;
+  height: 5px;
+  width: 100%;
+  padding: 0;
+  margin: 0; }
+/* Donate buttons */
+.wpbc-donate-button {
+  position: relative;
+  text-decoration: none;
+  display: inline-block;
+  border: 1px solid #333;
+  padding: 4px 10px;
+  border: 2px solid #4fff21;
+  margin: 0 10px 10px 0;
+  color: inherit;
+  outline: 0 !important; }
+
+.wpbc-donate-button i {
+  float: left;
+  position: absolute;
+  top: 6px;
+  width: 22px;
+  text-align: center;
+  left: 4px; }
+
+.wpbc-donate-content {
+  display: block;
+  margin-left: 19px; }
+
+.wpbc-donate-address {
+  font-size: 10px;
+  display: block;
+  margin-left: 19px;
+  color: #aaa; }
+
+@media screen and (max-width: 700px) {
+  .wpbc-api-ret-vars table, .wpbc-api-ret-vars table tbody, .wpbc-api-ret-vars table tr, .wpbc-api-ret-vars td, .wpbc-api-ret-vars td.wpbc-api-ret-name, .wpbc-api-ret-vars td.wpbc-cut-ellipsis {
+    width: 100%;
+    max-width: none;
+    display: block;
+    border: none; }
+
+  .wpbc-api-ret-vars td, table.wpbc-no-lines td.wpbc-api-ret-td-right {
+    border: none;
+    box-sizing: border-box;
+    padding: 10px 10px 10px 30px; }
+
+  .wpbc-api-ret-vars td.wpbc-api-ret-name {
+    border-bottom: 1px solid #ccc;
+    text-transform: uppercase;
+    color: #ccc;
+    padding: 10px 10px; }
+
+  table.wpbc-no-lines td.wpbc-api-ret-td-right {
+    text-align: right;
+    padding: 0px 20px 10px;
+    color: #aaa; } }

@@ -1,0 +1,114 @@
+/*
+Plugin Name: WP Blockchain
+Plugin URI: https://wp-blockchain.com
+License: GPLv2 or later
+
+Copyright (c) 2018, Good Rebels Inc.
+
+WP Blockchain is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 2 of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program. If not, see <https://www.gnu.org/licenses/gpl-2.0.html>.
+
+Please feel free to contact us at wp-blockchain@goodrebels.com.
+*/
+
+
+.wpbc-stamps-table {
+	border-collapse: collapse;
+	background: white;
+	margin-right: 20px;
+
+	.wpbc-stamps-table-global-status-td i {
+		width: 18px;
+		text-align: center;
+	}
+
+	.wpbc-stamps-table-status-td {
+		i {
+			width: 20px;
+			border-right: 1px solid #ddd;
+			margin-right: 6px;
+		}
+		& > div {
+		white-space: nowrap;
+		}
+	}
+	.wpbc-hash-legend-stamp_base,
+	.wpbc-hash-legend-context_name {
+		font-size: 80%;
+		line-height: normal;
+	}
+
+	.wpbc-hash-legend-stamp_base,
+	.wpbc-hash-legend-context_name,
+	.wpbc-hash-legend-stamp_base a,
+	.wpbc-hash-legend-context_name a {
+		color: #777;
+	}
+	.wpbc-stamps-summary {
+		margin: 0 0 20px 0;
+	}
+	.wpbc-settings-toplinks {
+		margin: 10px 20px 15px 0;
+	}
+	th,
+	td {
+		padding: 4px 8px;
+		border: 1px solid #ddd;
+	}
+	td.wpbc-td-nopad {
+		padding: 1px;
+	}
+	td.wpbc-td-nopad select {
+		border: none;
+		padding: 4px 8px;
+		font-size: inherit;
+		width: 100%;
+		box-sizing: border-box;
+		box-shadow: none;
+		outline: 0;
+	}
+	.wpbc-stamps-table-before-first-to-update td {
+		border-bottom: 4px solid #ddd;
+	}
+	.wpbc-stamps-table-first-to-update td {
+		border-top: 4px solid #ddd;
+	}
+
+	th {
+		text-align: left;
+	}
+	a {
+		text-decoration: none;
+	}
+	a:hover {
+		text-decoration: underline;
+	}
+
+	.wpbc-stamps-table-actions {
+		white-space: nowrap;
+
+		a {
+			margin-left: 2px;
+			color: #ccc;
+		}
+		a:hover {
+			color: red;
+		}
+		a:active,
+		a:focus,
+		a {
+			outline: 0 !important;
+			box-shadow: none !important;
+		}
+	}
+}
+

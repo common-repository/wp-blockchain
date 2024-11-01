@@ -1,0 +1,317 @@
+/*
+Plugin Name: WP Blockchain
+Plugin URI: https://wp-blockchain.com
+License: GPLv2 or later
+ 
+Copyright (c) 2018, Good Rebels Inc.
+
+WP Blockchain is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 2 of the License, or (at your option) any later version.
+ 
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU General Public License for more details.
+ 
+You should have received a copy of the GNU General Public License
+along with this program. If not, see <https://www.gnu.org/licenses/gpl-2.0.html>.
+
+Please feel free to contact us at wp-blockchain@goodrebels.com.
+*/
+
+
+$wpbc-border-color: #ccc;
+
+html, body, html body {
+	padding: 0;
+	margin: 0;
+	display: block;
+	line-height: normal;
+	background: none !important;
+}
+a,
+a:active,
+a:visited {
+	text-decoration: none;
+	color: #46d2b8;
+}
+.wpbc-api-ret-status {
+	font-size: 30px;
+	font-weight: bold;
+}
+.wpbc-api-intro {
+	padding: 20px 30px 0;
+	border-bottom: 1px solid #ddd;
+	box-shadow: 0px 3px 12px 0px #f0f0f0;
+}
+.wpbc-api-ret {
+	padding: 20px 30px 25px;
+	text-align: left;
+}
+.wpbc-api-ret code {
+    max-width: 100%;
+    display: block;
+    background: none;
+    word-wrap: break-word;
+}
+.wpbc-api-ret-status {
+	margin-bottom: 11px;
+}
+.wpbc-api-ret-vars table {
+	background: white;
+	border-collapse: collapse;
+    width: 100%;
+	max-width: 100%;
+}
+.wpbc-api-ret-vars tr {}
+.wpbc-api-ret-vars td {
+	padding: 6px 8px;
+	border: 1px solid $wpbc-border-color;
+	vertical-align: top;
+}
+.wpbc-api-ret-vars td.wpbc-api-ret-name {
+	width: 180px;
+	max-width: 22%;
+}
+.wpbc-api-ret-vars td.wpbc-stamp-decoded-title {
+    text-transform: uppercase;
+    color: #aaa;
+    font-size: 90%;
+}
+
+.wpbc-api-ret-status-intro {
+	font-size: 17px;
+	font-weight: normal;
+	margin: 18px 0 5px;
+	color: #333;
+}
+.wpbc-api-ret-status-intro-end {
+    font-size: 17px;
+    text-align: right;
+	font-weight: normal;
+	margin: 5px 0 38px;
+}
+.wpbc-api-ret-status-intro-end a {
+	display: inline-block;
+	vertical-align: top;
+}
+.wpbc-api-ret-status-intro-end img {
+    width: 135px;
+    margin: 10px 0 0;
+}
+.wpbc-api-ret-status-ind {
+	font-size: 15px;
+	font-weight: normal;
+	margin: 18px 0 8px;
+	color: #999;
+}
+.wpbc-api-ret-var-legend a {
+	color: inherit;
+	text-decoration: underline;
+}
+.wpbc-api-ret-status-ind.wpbc-api-ret-status-ind-api a {
+	color: inherit;
+}
+.wpbc-api-ret-vars td.wpbc-api-ret-long-td {
+	padding: 0;
+}
+
+.wpbc-api-ret-long {
+	max-height: 200px;
+	padding: 6px 8px;
+	overflow: auto;
+	overflow-y: auto;
+	overflow-x: visible;
+}
+.wpbc-stamping-tree {
+	display: inline-block;
+	text-align: center;
+}
+
+.wpbc-stamping-tree.wpbc-stamping-tree-left {
+    float: right;
+    margin-bottom: 10px;
+}
+.wpbc-stamping-tree-branches {
+	display: table;
+	width: 100%;
+	min-width: 100%;
+	max-width: 100%;
+}
+.wpbc-stamping-tree-branch {
+	width: 50%;
+	display: table-cell;
+}
+
+.wpbc-stamping-tree-cell,
+.wpbc-stamping-tree-branch > div {
+	max-width: 180px;
+	padding: 4px 6px;
+    min-width: 140px;
+}
+.wpbc-stamping-hash {
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.wpbc-stamping-tree-cell {
+	margin: 0 auto;
+}
+.wpbc-stamping-tree-branch > div {
+	margin: 0 5px;
+	border: 1px solid $wpbc-border-color;
+	color: #aaa;
+}
+.wpbc-stamping-tree-branch.wpbc-stamping-tree-branch-ours > div,
+.wpbc-stamping-tree-branch.wpbc-stamping-tree-branch-other-sum > div,
+.wpbc-stamping-tree-branch.wpbc-stamping-tree-branch-root > div {
+    border-color: #555;
+    background: white;
+    color: inherit;
+}
+.wpbc-stamping-tree-branch.wpbc-stamping-tree-branch-ours .wpbc-stamping-hash-legend,
+.wpbc-stamping-tree-branch.wpbc-stamping-tree-branch-other-sum .wpbc-stamping-hash-legend,
+.wpbc-stamping-tree-branch.wpbc-stamping-tree-branch-root .wpbc-stamping-hash-legend {
+color: #555;
+}
+.wpbc-stamping-tree-branch.wpbc-stamping-tree-branch-other-sum .wpbc-stamping-hash-legend i {
+color: #ddd;
+}
+
+.wpbc-stamping-hash {}
+.wpbc-stamping-hash-legend {
+	font-size: 80%;
+}
+.wpbc-merkle-tree {
+	display: none;
+    margin: 10px 0 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+    background: #fdfdfd;
+}
+
+.wpbc-merkle-tree-inner {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.wpbc-merkle-tree > div {
+	margin: 0 0 5px;
+}
+.wpbc-api-ret-var-legend-warning {
+	font-size: 80%;
+	margin: 3px 0 0;
+}
+.wpbc-stamping-hash-legend {
+	color: #ccc;
+}
+.wpbc-api-ret > .wpbc-stamp-live {
+    display: block;
+    word-wrap: break-word;
+}
+
+.wpbc-history-tr-show {
+text-align: center;
+}
+
+.wpbc-api-footer {
+	padding: 10px 30px 15px;
+    border-top: 1px solid #ddd;
+    background: #fafafa;
+    font-weight: normal;
+    font-size: 15px;
+    color: #999;
+    box-shadow: 0px -3px 12px 0px #f0f0f0;
+}
+
+.wpbc-api-footer,
+.wpbc-api-intro {
+    text-align: left;
+	background: #fafafa;
+	font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.wpbc-api-ret-status > .wpbc-stamp-live {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 1px;
+}
+
+.wpbc-api-ret-var-legend-warning,
+.bctamp-validating-error {
+	color: red;
+}
+
+.wpbc-api-ret-hash > div {
+display: inline-block;
+}
+
+button.wpbc-dl {
+display: inline-block;
+    padding: 6px 10px;
+    line-height: normal;
+    vertical-align: top;
+    font-weight: normal;
+    margin: 3px 0 0 40px;
+    background: #ffd96a;
+    color: #333;
+    border: 1px solid #aaa;
+}
+
+.wpbc-tx {
+    line-height: 120%;
+    margin-bottom: 2px;
+}
+
+.wpbc-tx-link-several.wpbc-tx-link-first .wpbc-tx-label {
+display: block;
+margin-bottom: 2px;
+}
+
+a.wpbc-hash-tree-link {
+text-decoration: none;
+margin-left: 10px;
+color: #aaa;
+}
+
+.wpbc-hash-tree-link i {
+color: #ccc;
+}
+
+a.wpbc-hash-tree-link:hover {
+text-decoration: underline;
+}
+a.wpbc-hash-tree-link.wpbc-hash-tree-link-hide {
+display: none;
+}
+
+.wpbc-api-ret-vars td.wpbc-cut-ellipsis {
+    max-width: 1px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.wpbc-api-ret-col-extend {
+	width: 82%;
+}
+
+.wpbc-api-ret-col-name {
+	width: 18%;
+}
+
+table td.wpbc-no-lines-td {
+	padding: 0;
+}
+table.wpbc-no-lines td {
+	border: none;
+}
+
+table.wpbc-no-lines td.wpbc-api-ret-td-right {
+	border-left: 1px solid $wpbc-border-color;
+}
+
+.wpbc-no-context,
+a.wpbc-cert-edit {
+	color: #aaa;
+}

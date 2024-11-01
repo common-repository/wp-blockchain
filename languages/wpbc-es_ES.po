@@ -1,0 +1,1321 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Blockchain\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wp-blockchain\n"
+"POT-Creation-Date: 2018-10-18 13:07+0200\n"
+"PO-Revision-Date: 2018-10-18 13:07+0200\n"
+"Last-Translator: \n"
+"Language-Team: Good Rebels <alexandre.sonderer@goodrebels.com>\n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: inc/api/block_explorers/btc.php:37 inc/api/stamp_services/stampery.php:45
+msgid "Client ID"
+msgstr "ID de cliente"
+
+#: inc/api/block_explorers/btc.php:38 inc/api/stamp_services/stampery.php:46
+msgid "Client secret"
+msgstr "Secreto de cliente"
+
+#: inc/api/block_explorers/btc.php:40
+msgid "API keys can be generated %s or %s to Btc.com, then going to %s"
+msgstr "Se pueden generar claves de API %s o %s a Btc.com, luego yendo a %s"
+
+#: inc/api/block_explorers/btc.php:41
+msgid "creating an account"
+msgstr "creando una cuenta"
+
+#: inc/api/block_explorers/btc.php:42
+msgid "logging in"
+msgstr "autentificándote"
+
+#: inc/api/block_explorers/btc.php:43
+msgid "its API dashboard"
+msgstr "su interfaz de gestión de API"
+
+#: inc/api/stamp_services/stampery.php:48
+msgid "API keys can be generated from %s"
+msgstr "Se puede generar claves de API a través del %s"
+
+#: inc/api/stamp_services/stampery.php:48
+msgid "the %s's API dashboard"
+msgstr "panel de API de %s"
+
+#: inc/api/stamp_services/stampery.php:591
+#: inc/api/stamp_services/stampery.php:621 inc/stamp.php:523
+msgid "%s left"
+msgstr "quedan %s"
+
+#: inc/cron.php:41
+msgid "executed in %s"
+msgstr "ejecutado en %s"
+
+#: inc/cron.php:48
+msgid "reloading in %s"
+msgstr "recargando en %s"
+
+#: inc/cron.php:48
+msgid "at %s"
+msgstr "el %s"
+
+#: inc/cron.php:55
+msgid "CRON blocked from settings"
+msgstr "CRON bloqueado desde los ajustes"
+
+#: inc/cron.php:104
+msgid "starting CRON at %s"
+msgstr "empezando CRON el %s"
+
+#: inc/donate.php:34
+msgid "Donate some Satoshis!"
+msgstr "¡Dona unos Satoshis!"
+
+#: inc/helpers.php:89
+msgid "and"
+msgstr "y"
+
+#: inc/helpers.php:153 inc/helpers.php:290 inc/helpers.php:333
+msgid "in %s"
+msgstr "en %s"
+
+#: inc/helpers.php:156
+msgid "%s ago"
+msgstr "hace %s"
+
+#: inc/helpers.php:265 inc/helpers.php:285
+msgid "Stamp it!"
+msgstr "¡Estamparlo!"
+
+#: inc/helpers.php:265
+msgid ""
+"even if checked, such state will only be displayed to users that can stamp "
+"the item"
+msgstr ""
+"aunque checkeado, este estado sólo se enseñará a aquellos usuarios que "
+"puedan estampar el elemento"
+
+#: inc/helpers.php:266 inc/helpers.php:287 inc/stamp.php:527
+msgid "Queued for stamping.."
+msgstr "En cola para estampar.."
+
+#: inc/helpers.php:267 inc/helpers.php:288 inc/helpers.php:316
+msgid "Stamping.."
+msgstr "Estampando.."
+
+#: inc/helpers.php:269 inc/helpers.php:289 inc/helpers.php:318
+msgid "Stamped"
+msgstr "Estampado"
+
+#: inc/helpers.php:275
+msgid "API result (%s)"
+msgstr "Resultado de API (%s)"
+
+#: inc/helpers.php:276
+msgid "see raw result"
+msgstr "ver resultado bruto"
+
+#: inc/helpers.php:277
+msgid "Error"
+msgstr "Error"
+
+#: inc/helpers.php:278
+msgid "No such stamp"
+msgstr "Estampado no encontrado"
+
+#: inc/helpers.php:279
+msgid "Action not recognized"
+msgstr "Acción desconocida"
+
+#: inc/helpers.php:286
+msgid "Queuing.."
+msgstr "Enviando.."
+
+#: inc/helpers.php:296
+msgid "queued for stamping.."
+msgstr "en cola para estampar.."
+
+#: inc/helpers.php:297
+msgid "stamping.."
+msgstr "estampando.."
+
+#: inc/helpers.php:298
+msgid "stamping %s.."
+msgstr "estampando %s.."
+
+#: inc/helpers.php:299
+msgid "waiting for %d blocks.."
+msgstr "esperando a %d bloques.."
+
+#: inc/helpers.php:300
+msgid "waiting for 1 last block.."
+msgstr "esperando a un último bloque.."
+
+#: inc/helpers.php:301
+msgid "stamping failed"
+msgstr "estampado fallado"
+
+#: inc/helpers.php:302
+msgid "restamp pending.."
+msgstr "re-estampado pendiente.."
+
+#: inc/helpers.php:303
+msgid "confirmed"
+msgstr "confirmado"
+
+#: inc/helpers.php:304
+msgid "done"
+msgstr "terminado"
+
+#: inc/helpers.php:305
+msgid "unknown"
+msgstr "desconocido"
+
+#: inc/helpers.php:307
+msgid "unknown context"
+msgstr "contexto desconocido"
+
+#: inc/helpers.php:308
+msgid "created at %s, stamped at %s, confirmed at %s (%s confirmations)"
+msgstr "creado el %s, estampado el %s, confirmado el %s (%s confirmaciones)"
+
+#: inc/helpers.php:314
+msgid "Waiting for %d blocks.. (%s left)"
+msgstr "Esperando a %d bloques.. (quedan %s)"
+
+#: inc/helpers.php:315
+msgid "Stamping %s.."
+msgstr "Estampando %s.."
+
+#: inc/helpers.php:317
+msgid "Waiting for one last block.. (%s left)"
+msgstr "Esperando a un último bloque.. (quedan %s)"
+
+#: inc/helpers.php:319
+msgid "Unknown state"
+msgstr "Estado indeterminado"
+
+#: inc/helpers.php:320
+msgid "Error stamping"
+msgstr "Error al estampar"
+
+#: inc/helpers.php:321
+msgid "%s confirmations"
+msgstr "%s confirmaciones"
+
+#: inc/helpers.php:327
+msgid "Stamped%s"
+msgstr "Estampado%s"
+
+#: inc/helpers.php:328
+msgid "Waiting for enough blocks..%s"
+msgstr "Esperando a suficientes bloques..%s"
+
+#: inc/helpers.php:329
+msgid "Queued for stamping..%s"
+msgstr "En cola para estampar..%s"
+
+#: inc/helpers.php:330
+msgid "Unknown%s"
+msgstr "Desconocido%s"
+
+#: inc/helpers.php:331
+msgid "Not found"
+msgstr "No encontrado"
+
+#: inc/helpers.php:570
+msgid "click to pause/resume the auto-refresh"
+msgstr "pinchar para poner en pausa/reanudar la actualización automática"
+
+#: inc/helpers.php:639
+msgid "Bitcoin"
+msgstr "Bitcoin"
+
+#: inc/js.php:60
+msgid "refreshing"
+msgstr "recargando"
+
+#: inc/js.php:61
+msgid "refreshing in %ds"
+msgstr "recargando en %ds"
+
+#: inc/js.php:62
+msgid "paused"
+msgstr "en pausa"
+
+#: inc/preinit.php:51
+msgid ""
+"The WP Blockchain plugin needs PHP 5.4 or later, and the PHP version "
+"installed is %s. Please contact your hosting administrator and ask for a PHP "
+"upgrade."
+msgstr ""
+"El plugin WP Blockchain requiere PHP 5.4 o posterior, y la versión de PHP "
+"actualmente instalada es la %s. Por favor, contacta con tu administrador de "
+"hosting y pidele actualizar PHP."
+
+#: inc/preinit.php:54
+msgid ""
+"WP Blockchain requires the PHP Multibytes extension (\"php-mbstring\") to "
+"work properly. Please install it or contact your hosting administrator."
+msgstr ""
+"WP Blockchain requiere la extensión de PHP Multibytes (\"php-mbstring\") "
+"para funcionar de manera correcta. Por favor, instálala o contacta con tu "
+"administrador de hosting."
+
+#: inc/preinit.php:57
+msgid ""
+"WP Blockchain requires the PHP cURL extension (\"php-curl\") to work "
+"properly. Please install it or contact your hosting administrator."
+msgstr ""
+"WP Blockchain requiere la extensión de PHP cURL (\"php-curl\") para "
+"funcionar de manera correcta. Por favor, instálala o contacta con tu "
+"administrador de hosting."
+
+#: inc/settings.php:30
+msgid "WP Blockchain - Settings"
+msgstr "WP Blockchain - Ajustes"
+
+#. Plugin Name of the plugin/theme
+#: inc/settings.php:30 inc/settings.php:367
+msgid "WP Blockchain"
+msgstr "WP Blockchain"
+
+#: inc/settings.php:79
+msgid "Please create the following folder and make it writable:"
+msgstr "Por favor, crea la carpeta siguiente y dale permisos de escritura:"
+
+#: inc/settings.php:88
+msgid "Please make following folder writable:"
+msgstr "Por favor, da permisos de escritura a la carpeta siguiente:"
+
+#: inc/settings.php:102
+msgid ""
+"Please set up a CRON task every minute to the following URL to allow more "
+"efficient background blockchain stamping:"
+msgstr ""
+"Por favor configura una tarea CRON cada minuto a la URL siguiente para un "
+"estampe de fondo, mucho más eficiente:"
+
+#: inc/settings.php:104
+msgid ""
+"It seems that the WP Blockchain's CRON task has not been called in the last "
+"%s (%s). Please set up a CRON task every minute to:"
+msgstr ""
+"Parece que la tarea CRON de WP Blockchain no ha sido disparada en los "
+"últimos %s (%s). Por favor, configura una tarea CRON cada minuto a"
+
+#: inc/settings.php:106
+msgid "last call %s"
+msgstr "última llamada %s"
+
+#: inc/settings.php:130
+msgid "Please %s to stamp your content"
+msgstr "Por favor, %s para estampar tu contenido"
+
+#: inc/settings.php:130 inc/settings.php:161
+msgid "configure WP Blockchain"
+msgstr "configura WP Blockchain"
+
+#: inc/settings.php:143
+msgid ""
+"Good Rebels is a digital strategy and creative company. We work with our "
+"clients to build a legacy of performance and innovation, enabling them to "
+"thrive whatever the future holds."
+msgstr ""
+"Construimos el futuro allí donde confluyen personas, marcas y tecnología. "
+"Tenemos una misión: cambiar radicalmente la relación de las empresas con los "
+"consumidores, sus empleados y la sociedad. Ayudando a nuestros clientes a "
+"anteponer a las personas y ser más competitivos. Nuestra fuerza son los 130 "
+"Rebels que trabajan repartidos entre 6 oficinas en Reino Unido, Europa y "
+"Latinoamérica. Nuestro trabajo actual abarca más de 60 clientes en 9 países."
+
+#: inc/settings.php:151
+msgid "Welcome to the blockchain era!"
+msgstr "¡Bienvenido a la era de blockchain!"
+
+#: inc/settings.php:153
+msgid "Congratulations! You've just entered the blockchain era!"
+msgstr "¡Enhorabuena, acabas de entrar en la era de blockchain!"
+
+#: inc/settings.php:158
+msgid ""
+"Please take a few minutes to configure WP Blockchain and start stamping all "
+"your content!"
+msgstr ""
+"¡Por favor, toma unos minutos para configurar WP Blockchain y empezar a "
+"estampar todo tu contenido!"
+
+#: inc/settings.php:161
+msgid "Please take a few minutes to %s and start stamping all your content!"
+msgstr ""
+"¡Por favor, toma unos minutos para %s y empezar a estampar todo tu contenido!"
+
+#: inc/settings.php:166
+msgid ""
+"For %s like automatic stamping or stamps customization, please consider "
+"buying a %s."
+msgstr ""
+"Para %s como estampar automáticamente o personalizar los estampes, por favor "
+"considera comprar una %s."
+
+#: inc/settings.php:166
+msgid "advanced features"
+msgstr "funcionalidades avanzadas"
+
+#: inc/settings.php:166
+msgid "Premium License"
+msgstr "Licencia Premium"
+
+#: inc/settings.php:170
+msgid "Configure WP Blockchain"
+msgstr "Configurar WP Blockchain"
+
+#: inc/settings.php:175
+msgid "Premium features"
+msgstr "Funcionalidades Premium"
+
+#: inc/settings.php:179
+msgid "Plugin support"
+msgstr "Soporte del plugin"
+
+#: inc/settings.php:180
+msgid "About Good Rebels"
+msgstr "Sobre Good Rebels"
+
+#: inc/settings.php:201
+msgid "Users"
+msgstr "Usuarios"
+
+#: inc/settings.php:218
+msgid "Stamps were all deleted successfuly"
+msgstr "Todos los estampes han sido borrado con éxito"
+
+#: inc/settings.php:225
+msgid "Plugin settings were reset successfuly"
+msgstr "Los ajustes del plugin han sido reiniciado con éxito"
+
+#: inc/settings.php:272
+msgid "Bad format given for the Bitcoin donation address"
+msgstr ""
+"Se ha entrado una dirección de donación de Bitcoins con formato inválido"
+
+#: inc/settings.php:272
+msgid "Previous address <code>%s</code> was preserved"
+msgstr "La dirección anterior <code>%s</code> ha sido preservada"
+
+#: inc/settings.php:324
+msgid "Settings saved successfuly"
+msgstr "Ajustes guardados con éxito"
+
+#: inc/settings.php:330
+msgid "All stamps were requeued to restamp them in new blockchains"
+msgstr ""
+"Todos los estampes fueron puestos en cola para re-estamparlos en los nuevos "
+"blockchains"
+
+#: inc/settings.php:352
+msgid "%s API access checked successfully"
+msgstr "El acceso de API de %s ha sido comprobado con éxito"
+
+#: inc/settings.php:354
+msgid "%s API access check failed"
+msgstr "El acceso de API de %s no ha podido ser comprobado"
+
+#: inc/settings.php:367 inc/settings.php:1081
+msgid "Settings"
+msgstr "Ajustes"
+
+#: inc/settings.php:374
+msgid "Stamps state overview"
+msgstr "Resumen de estado de los estampes"
+
+#: inc/settings.php:384
+msgid "Global settings"
+msgstr "Ajustes globales"
+
+#: inc/settings.php:394
+msgid "Stamp in blockchains"
+msgstr "Estampar en los blockchains"
+
+#: inc/settings.php:428
+msgid "Hidden mode"
+msgstr "Modo escondido"
+
+#: inc/settings.php:430
+msgid "Only show stamps to admins"
+msgstr "Sólo enseñar los estampes a los usuarios admin"
+
+#: inc/settings.php:430
+msgid ""
+"this will hide any stamp to non-admins, whatever the following parameters "
+"are set to"
+msgstr ""
+"esto esconderá cualquier estampe de los que no sean administradores, sean "
+"cuales sean los parámetros siguientes"
+
+#: inc/settings.php:438
+msgid "Stamppable items"
+msgstr "Elementos estampables"
+
+#: inc/settings.php:441
+msgid "Item type"
+msgstr "Tipo de elemento"
+
+#: inc/settings.php:441
+msgid "Published <br/>items"
+msgstr "Elementos <br/>publicados"
+
+#: inc/settings.php:441
+msgid "Stamping policy"
+msgstr "Política de estampado"
+
+#: inc/settings.php:441
+msgid "Show in backend in"
+msgstr "Enseñar en el backend"
+
+#: inc/settings.php:441
+msgid "Auto append <br/>on frontend"
+msgstr "Añadir automaticamente <br/>en el frontend"
+
+#: inc/settings.php:441
+msgid "Stamp <br>visibility"
+msgstr "Visibilidad de <br>los estampes"
+
+#: inc/settings.php:453
+msgid "Public"
+msgstr "Público"
+
+#: inc/settings.php:453
+msgid "Private"
+msgstr "Privado"
+
+#: inc/settings.php:468
+msgid "Do not stamp"
+msgstr "No estampar"
+
+#: inc/settings.php:469
+msgid "Allow stamping manually"
+msgstr "Permitir estampar manualmente"
+
+#: inc/settings.php:486
+msgid "Admin bar, listing and edition pages"
+msgstr "Barra de admin, listado y páginas de edición"
+
+#: inc/settings.php:487
+msgid "Only in admin bar"
+msgstr "Sólo barra de admin"
+
+#: inc/settings.php:488
+msgid "Admin bar and edition pages"
+msgstr "Barra de admin y páginas de edición"
+
+#: inc/settings.php:489
+msgid "Admin bar and listing page"
+msgstr "Barra de admin y listado"
+
+#: inc/settings.php:490
+msgid "Only in listing"
+msgstr "Sólo en listado"
+
+#: inc/settings.php:491
+msgid "Listing and edition pages"
+msgstr "Listado y páginas de edición"
+
+#: inc/settings.php:492
+msgid "Only in edition pages"
+msgstr "Sólo en páginas de edición"
+
+#: inc/settings.php:493
+msgid "Do not show anywhere"
+msgstr "No enseñar en ningún lugar"
+
+#: inc/settings.php:505
+msgid "Do nothing"
+msgstr "No hacer nada"
+
+#: inc/settings.php:506
+msgid "In singular pages"
+msgstr "Páginas singular"
+
+#: inc/settings.php:507
+msgid "When in a loop"
+msgstr "En buclas (loops)"
+
+#: inc/settings.php:508
+msgid "In singular pages and in loops"
+msgstr "En página singular y buclas (loops)"
+
+#: inc/settings.php:519
+msgid "Not available"
+msgstr "No disponible"
+
+#: inc/settings.php:527
+msgid "Only admins"
+msgstr "Sólo admins"
+
+#: inc/settings.php:528
+msgid "Logged in users"
+msgstr "Usuarios autentificados"
+
+#: inc/settings.php:529
+msgid "Item's authors and admins only"
+msgstr "Sólo autores del elemento y admins"
+
+#: inc/settings.php:530
+msgid "Anyone if the item is public"
+msgstr "Cualquiera si el elemento es público"
+
+#: inc/settings.php:544
+msgid ""
+"Appending stamps is realized throught the <code>the_content</code> filter. "
+"To display a stamp from a template, use the following PHP code: "
+"<code>do_action(\"wpbc\");</code>. To display a stamp from a filtered "
+"content (like a post or a page), use the shortcode <code>[wpbc]</code>."
+msgstr ""
+"Enseñar los estampes en el frontend de manera automática se realiza a través "
+"del filtro <code>the_content</code>. Para enseñar un estampe desde una "
+"plantilla, utilice el código PHP siguiente: <code>do_action(\"wpbc\");</"
+"code>. Para enseñar un estampe desde un contenido filtrado (como una entrada "
+"o una página), utilice el shortcode <code>[wpbc]</code>."
+
+#: inc/settings.php:554 inc/settings.php:564
+msgid "Stamp service"
+msgstr "Servicio de estampe"
+
+#: inc/settings.php:556
+msgid ""
+"Please select a stamping service and fill the corresponding API credentials "
+"(required):"
+msgstr ""
+"Por favor, selecciona un servicio de estampado y rellena las claves de API "
+"correspondientes (requerido):"
+
+#: inc/settings.php:567
+msgid "Please select a stamp service.."
+msgstr "Por favor seleccione un servicio de estampe.."
+
+#: inc/settings.php:603 inc/settings.php:694
+msgid "Service client ID"
+msgstr "ID de cliente"
+
+#: inc/settings.php:610 inc/settings.php:701
+msgid "Service secret"
+msgstr "Secreto"
+
+#: inc/settings.php:634 inc/settings.php:719
+msgid "%s block explorer"
+msgstr "Explorador de bloques de %s"
+
+#: inc/settings.php:636
+msgid ""
+"Please select a block explorer and fill the corresponding API credentials "
+"(required):"
+msgstr ""
+"Por favor, selecciona un explorador de bloques y rellena las claves de API "
+"correspondientes (requerido):"
+
+#: inc/settings.php:644
+msgid "Service"
+msgstr "Servicio"
+
+#: inc/settings.php:647
+msgid "Please select a block explorer for %s.."
+msgstr "Por favor seleccione un explorador de bloques para %s"
+
+#: inc/settings.php:723
+msgid ""
+"[connector] will be used as a block explorer for [blockchain] (no "
+"configuration needed)."
+msgstr ""
+"[connector] será utilizado como explorador de bloques para [blockchain] "
+"(ninguna configuración necesaria)."
+
+#: inc/settings.php:724
+msgid ""
+"[connector] may be used as block explorers for [blockchain] (no "
+"configuration needed)."
+msgstr ""
+"[connector] pueden ser utilizados como exploradores de bloques para "
+"[blockchain] (ninguna configuración necesaria)."
+
+#: inc/settings.php:745
+msgid "Styling"
+msgstr "Estilo"
+
+#: inc/settings.php:753
+msgid "Show these states on frontend stamps"
+msgstr "Enseñar en el frontend los estados de estampado"
+
+#: inc/settings.php:753
+msgid "whenever a stamp may be displayed"
+msgstr "siempre cuando el estampe puede ser enseñado"
+
+#: inc/settings.php:771
+msgid "Certificate introduction"
+msgstr "Introducción de certificado"
+
+#: inc/settings.php:782
+msgid "Donation settings"
+msgstr "Ajustes de donación"
+
+#: inc/settings.php:786
+msgid "Bitcoin wallet address (public key)"
+msgstr "Dirección de monedero de Bitcoins (clave pública)"
+
+#: inc/settings.php:789
+msgid ""
+"Entering a Bitcoin wallet address here will add the <code>bitcoin</code> and "
+"<code>microtip</code> metatags to every pages, so that you can accept "
+"Bitcoin donations from services like %s and %s (no account needed). You can "
+"create a new Bitcoin wallet on platforms like %s or %s. You can print a "
+"donate button with the %s shortcode or %s PHP code."
+msgstr ""
+"Entrar aquí una dirección de monedero de Bitcoins añadirá los metatags "
+"<code>bitcoin</code> y <code>microtip</code> a todas las páginas, de tal "
+"forma que podrás acceptar donaciones de Bitcoins de servicios como %s y %s "
+"(ninguna cuenta requerida). Puedes crear un nuevo monedero de Bitcoins en "
+"plataformas como %s o %s. Puedes imprimir el botón de donación con el "
+"shortcode %s o el código PHP %s."
+
+#: inc/settings.php:796
+msgid "Miscellaneous"
+msgstr "Diverso"
+
+#: inc/settings.php:801
+msgid "CRON settings"
+msgstr "Ajustes de CRON"
+
+#: inc/settings.php:803
+msgid "Allow Poorman's CRON"
+msgstr "Permitir el Poorman's CRON"
+
+#: inc/settings.php:803
+msgid "only executed on ajax and if CRON has not been trigger for %s"
+msgstr "sólo ejecutado desde ajax y si CRON no ha sido disparado desde %s"
+
+#: inc/settings.php:810
+msgid "Block CRON"
+msgstr "Bloquear CRON"
+
+#: inc/settings.php:810
+msgid "useful to %s"
+msgstr "útil para %s"
+
+#: inc/settings.php:810
+msgid "debug CRON"
+msgstr "depurar CRON"
+
+#: inc/settings.php:816
+msgid "FontAwesome icons"
+msgstr "Iconos de FontAwesome"
+
+#: inc/settings.php:818
+msgid "Do not add FontAwesome, it is already included in all pages"
+msgstr "No añadir FontAwesome, esta ya incluido en todas las páginas"
+
+#: inc/settings.php:823
+msgid "Admin features"
+msgstr "Funcionalidades de admininistrador"
+
+#: inc/settings.php:825
+msgid "Are you sure you want to DELETE ALL STAMPS? This CANNOT BE REVERTED!"
+msgstr ""
+"¿Esta SEGURO que quiere BORRAR TODOS LOS ESTAMPES? ¡Esta acción NO SE PUEDE "
+"CANCELAR!"
+
+#: inc/settings.php:825
+msgid "Delete all stamps"
+msgstr "Borrar todos los estampes"
+
+#: inc/settings.php:832
+msgid ""
+"Are you sure you want to RESET PLUGIN SETTINGS? This CANNOT BE REVERTED!"
+msgstr ""
+"¿Esta SEGURO que quiere REINICIAR LOS AJUSTES DEL PLUGIN? ¡Esta acción NO SE "
+"PUEDE CANCELAR!"
+
+#: inc/settings.php:832
+msgid "Reset plugin settings"
+msgstr "Reiniciar los ajustes del plugin"
+
+#: inc/settings.php:842
+msgid "Save settings"
+msgstr "Guardar ajustes"
+
+#: inc/settings.php:892 inc/settings.php:907
+msgid "Blockchain stamping"
+msgstr "Estampado en Blockchain"
+
+#: inc/settings.php:920
+msgid "Title and content"
+msgstr "Título y contenido"
+
+#: inc/settings.php:937
+msgid "Name and biography"
+msgstr "Nombre y biografía"
+
+#: inc/settings.php:977 inc/settings.php:983
+msgid "Stamps"
+msgstr "Estampes"
+
+#: inc/settings.php:1026
+msgid "Edit %s"
+msgstr "Editar %s"
+
+#: inc/settings.php:1043
+msgid "View %s"
+msgstr "Ver %s"
+
+#: inc/settings.php:1061 templates/api.php:32
+msgid "Blockchain Certificate"
+msgstr "Certificado de Blockchain"
+
+#: inc/settings.php:1079
+msgid "Upgrade to Premium"
+msgstr "Actualiza a Premium"
+
+#: inc/settings.php:1090
+msgid "User"
+msgstr "Usuario"
+
+#: inc/settings.php:1092
+msgid "Unknown type"
+msgstr "Tipo desconocido"
+
+#: inc/stamp.php:299
+msgid "stagnent blockchain"
+msgstr "blockchain estancado"
+
+#: inc/stamp.php:301
+msgid "slow blocks"
+msgstr "bloques lentos"
+
+#: inc/stamp.php:376
+msgid "Blockchain transactions"
+msgstr "Transacciones en Blockchain"
+
+#: inc/stamp.php:399
+msgid "as %s"
+msgstr "como %s"
+
+#: inc/stamp.php:400
+msgid "show tree"
+msgstr "enseñar árbol"
+
+#: inc/stamp.php:401
+msgid "hide tree"
+msgstr "esconder árbol"
+
+#: inc/stamp.php:774
+msgid "Stamp history"
+msgstr "Historial de estampados"
+
+#: inc/stamp.php:790
+msgid "Last stamp"
+msgstr "Último estampado"
+
+#: inc/stamp.php:792
+msgid "Revision"
+msgstr "Revisión"
+
+#: inc/stamp.php:814
+msgid "active until %s"
+msgstr "activo hasta %s"
+
+#: inc/stamp.php:816
+msgid "active stamp"
+msgstr "estampado activo"
+
+#: inc/stamp.php:826
+msgid "Show more history"
+msgstr "Ver más historial"
+
+#: inc/stamp.php:839
+msgid "Confirmed stamp"
+msgstr "Estampe confirmado"
+
+#: inc/stamp.php:839
+msgid "Stamping.. please wait"
+msgstr "Estampando.. por favor espere"
+
+#: inc/stamp.php:1210
+msgid "Nothing to stamp"
+msgstr "Nada que estampar"
+
+#: inc/stamp.php:1339
+msgid "Please configure WP Blockchain to show stamps statistics here."
+msgstr ""
+"Por favor, configura WP Blockchain para enseñar estadísticas de estampes "
+"aquí ."
+
+#: inc/stamp.php:1342
+msgid "Please configure stamppable objects to show stamps statistics here."
+msgstr ""
+"Por favor, configura objetos estampables para enseñar estadísticas aquí."
+
+#: inc/stamp.php:1348
+msgid "stamps"
+msgstr "estampes"
+
+#: inc/stamp.php:1349
+msgid "stamped"
+msgstr "estampados"
+
+#: inc/stamp.php:1350
+msgid "stamping"
+msgstr "estampando"
+
+#: inc/stamp.php:1398
+msgid "users"
+msgstr "usuarios"
+
+#: inc/stamp.php:1399
+msgid ""
+"No stamps statistics to show yet. Use the buttons in edition pages of "
+"stamppable objects (%s) to throw your first stamp!"
+msgstr ""
+"Ninguna estadística de estampe que enseñar todavía. ¡Utiliza los botones en "
+"las páginas de edición de objetos estampables (%s) para lanzar tu primer "
+"estampe!"
+
+#: inc/stamp.php:1477
+msgid "Stamp not found"
+msgstr "Estampe no encontrado"
+
+#: inc/stamp.php:1502
+msgid "You are seeing a stamp revision, %s"
+msgstr "Esta viendo una revisión de estampado, %s"
+
+#: inc/stamp.php:1502
+msgid "see last stamp"
+msgstr "ver último estampado"
+
+#: inc/stamp.php:1521
+msgid "next fetch"
+msgstr "próxima actualización"
+
+#: inc/stamp.php:1521
+msgid "every %s"
+msgstr "cada %s"
+
+#: inc/stamp.php:1524
+msgid "Valid until"
+msgstr "Válido hasta"
+
+#: inc/stamp.php:1527
+msgid "duration"
+msgstr "duración"
+
+#: inc/stamp.php:1557
+msgid ""
+"This (SHA256) hash is the concatenation of its two (uppercase, binary) "
+"children below it."
+msgstr ""
+"Este (SHA256) hash es la concatenación de sus dos hijos (en mayúsculas y "
+"binario) debajo de el."
+
+#: inc/stamp.php:1559 inc/stamp.php:1603 inc/stamp.php:1616
+msgid "Another hash"
+msgstr "Otro hash"
+
+#: inc/stamp.php:1584
+msgid "This is the hash stamped into blockchain."
+msgstr "Este es el hash estampado en blockchain."
+
+#: inc/stamp.php:1585
+msgid "Stamped hash"
+msgstr "Hash estampado"
+
+#: inc/stamp.php:1598 inc/stamp.php:1611
+msgid "Our hash"
+msgstr "Nuestro hash"
+
+#: inc/stamp.php:1842
+msgid "stamp not found"
+msgstr "Estampe no encontrado"
+
+#: inc/stamp.php:1847
+msgid "Stamp #%s was successfuly deleted"
+msgstr "El estampe #%s ha sido borrado con éxito"
+
+#: inc/stamp.php:1853
+msgid "Nickname"
+msgstr "Apodo"
+
+#: inc/stamp.php:1854
+msgid "First name"
+msgstr "Nombre"
+
+#: inc/stamp.php:1855
+msgid "Last name"
+msgstr "Apellidos"
+
+#: inc/stamp.php:1856
+msgid "Email"
+msgstr "Correo electrónico"
+
+#: inc/stamp.php:1857
+msgid "Biography"
+msgstr "Biografía"
+
+#: inc/stamp.php:1858
+msgid "URL"
+msgstr "URL"
+
+#: inc/stamp.php:1859
+msgid "Registered at (GMT)"
+msgstr "Dado de alta el (GMT)"
+
+#: inc/stamp.php:1861
+msgid "Title"
+msgstr "Título"
+
+#: inc/stamp.php:1862
+msgid "Content"
+msgstr "Contenido"
+
+#: inc/stamp.php:1863
+msgid "Authors"
+msgstr "Autores"
+
+#: inc/stamp.php:1863
+msgid "Author"
+msgstr "Autor"
+
+#: inc/stamp.php:1865
+msgid "Origin"
+msgstr "Origen"
+
+#: inc/stamp.php:1866
+msgid "Format"
+msgstr "Formato"
+
+#: templates/api.php:50
+msgid "Stamp summary"
+msgstr "Resumen de estampado"
+
+#: templates/api.php:58
+msgid "Stamp title"
+msgstr "Título estampado"
+
+#: templates/api.php:61
+msgid "Stamp type"
+msgstr "Tipo estampado"
+
+#: templates/api.php:71
+msgid "Context URL"
+msgstr "URL de contexto"
+
+#: templates/api.php:76
+msgid "No public context"
+msgstr "Ningún contexto público"
+
+#: templates/api.php:79
+msgid "Edit"
+msgstr "Editar"
+
+#: templates/api.php:87
+msgid "Decoded content"
+msgstr "Contenido descodificado"
+
+#: templates/api.php:95
+msgid "Hash"
+msgstr "Hash"
+
+#: templates/api.php:98
+msgid "Stamp status"
+msgstr "Estado"
+
+#: templates/api.php:101
+msgid "Stamp time"
+msgstr "Momento"
+
+#. Plugin URI of the plugin/theme
+msgid "https://wp-blockchain.com"
+msgstr "https://wp-blockchain.com"
+
+#. Description of the plugin/theme
+msgid ""
+"Timestamp all your posts, pages, users and custom post types in the Bitcoin "
+"blockchain. By Good Rebels Inc."
+msgstr ""
+"Estampa todos tus entradas, páginas, usuarios y custom post types en el "
+"blockchain de Bitcoin. Por Good Rebels Inc."
+
+#. Author of the plugin/theme
+msgid "Good Rebels Inc."
+msgstr "Good Rebels Inc."
+
+#. Author URI of the plugin/theme
+msgid "https://www.goodrebels.com/about/"
+msgstr "https://www.goodrebels.com/es/about/"
+
+#~ msgid "Couldn't stamp: "
+#~ msgstr "No se pudó estampar: "
+
+#~ msgid ""
+#~ "API keys can be generated %s or %s to Blocktrail.com, then going to %s"
+#~ msgstr ""
+#~ "Las claves de API pueden ser generadas %s o %s a Blocktrail.com, y luego "
+#~ "visitando %s"
+
+#~ msgid "this will hide any stamp to non-admins"
+#~ msgstr "esto esconderá cualquier estampe de los usuarios no-admins"
+
+#~ msgid "Stamp objects"
+#~ msgstr "Estampar objetos"
+
+#~ msgid "Object type"
+#~ msgstr "Tipo de objeto"
+
+#~ msgid "Stamping"
+#~ msgstr "Estampando"
+
+#~ msgid "Item's authors only"
+#~ msgstr "Sólo autores del elemento"
+
+#~ msgid "Blockchain Stamping"
+#~ msgstr "Blockchain Stamping"
+
+#~ msgid "Confirmed stamps' color"
+#~ msgstr "Color de estampes confirmados"
+
+#~ msgid "Unconfirmed stamps' color"
+#~ msgstr "Color de estampes sin confirmar"
+
+#~ msgid "API Key"
+#~ msgstr "Clave de API"
+
+#~ msgid "WP Blockchain settings"
+#~ msgstr "Ajustes de WP Blockchain"
+
+#~ msgid "Developed by %s."
+#~ msgstr "Desarrollado por %s."
+
+#~ msgid "Stamp your own website!"
+#~ msgstr "¡Estampa tu propia web!"
+
+#~ msgid "Certificate footer"
+#~ msgstr "Pie de certificado"
+
+#~ msgid "Developed by %s for %s"
+#~ msgstr "Desarrollado por %s para %s"
+
+#~ msgid ""
+#~ "It seems like the CRON task has not been called in the last %s (%s). "
+#~ "Please set up a CRON task every minute to: "
+#~ msgstr ""
+#~ "Parece que la tarea programada (CRON) no ha sido llamada en los últimos "
+#~ "%s (%s). Por favor, configure una tarea CRON cada minuto a:"
+
+#~ msgid "never called"
+#~ msgstr "nunca llamado"
+
+#~ msgid "WP Blockchain Stamping"
+#~ msgstr "WP Blockchain Stamping"
+
+#~ msgid "See all stamps history"
+#~ msgstr "Ver el historial de los estampes"
+
+#~ msgid "Stamped object types"
+#~ msgstr "Tipos de objetos estampados"
+
+#~ msgid "Stamp automatically"
+#~ msgstr "Estampar automaticamente"
+
+#~ msgid "Blockchain Certificate page"
+#~ msgstr "Página de Certificado de Blockchain"
+
+#~ msgid "Go to stamping settings"
+#~ msgstr "Ir a los ajustes de estampes"
+
+#~ msgid "Couldn't stamp"
+#~ msgstr "No se pudó estampar"
+
+#~ msgid "queued"
+#~ msgstr "en cola"
+
+#~ msgid "to update"
+#~ msgstr "que actualizar"
+
+#~ msgid "late"
+#~ msgstr "tarde"
+
+#~ msgid "waiting"
+#~ msgstr "esperando"
+
+#~ msgid "late or failed"
+#~ msgstr "tarde o con error"
+
+#~ msgid "restamps"
+#~ msgstr "re-estampes"
+
+#~ msgid "in stamps"
+#~ msgstr "en estampes"
+
+#~ msgid "free"
+#~ msgstr "libres"
+
+#~ msgid "CRON blocked"
+#~ msgstr "CRON bloqueado"
+
+#~ msgid "last %s block fetched %s"
+#~ msgstr "último bloque de %s visto %s"
+
+#~ msgid "ETA %s"
+#~ msgstr "ETA %s"
+
+#~ msgid "on time"
+#~ msgstr "a tiempo"
+
+#~ msgid "No stamp to show"
+#~ msgstr "Ningún estampe que enseñar"
+
+#~ msgid "stamped instantly"
+#~ msgstr "estampado en el instante"
+
+#~ msgid "stamped in %s"
+#~ msgstr "estampado en %s"
+
+#~ msgid "existed for %s"
+#~ msgstr "existante desde %s"
+
+#~ msgid "restamped %s times, last restamp at %s"
+#~ msgstr "re-estampado %s veces, último re-estampe el %s"
+
+#~ msgid "restamped %s"
+#~ msgstr "re-estampado %s"
+
+#~ msgid "not stamped yet"
+#~ msgstr "no estampado todavía"
+
+#~ msgid "not stamped"
+#~ msgstr "sin estampar"
+
+#~ msgid "not confirmed"
+#~ msgstr "sin confirmar"
+
+#~ msgid "never"
+#~ msgstr "nunca"
+
+#~ msgid "waiting for %s"
+#~ msgstr "esperando %s"
+
+#~ msgid "%s late"
+#~ msgstr "%s tarde"
+
+#~ msgid "not planned yet"
+#~ msgstr "no planificada todavía"
+
+#~ msgid "delete this stamp"
+#~ msgstr "borrar este estampe"
+
+#~ msgid "Are you SURE you want to DELETE THIS STAMP? This CANNOT be undone."
+#~ msgstr ""
+#~ "¿Esta SEGURO que quiere BORRAR ESTE ESTAMPE? ¡Esta acción NO SE PUEDE "
+#~ "CANCELAR!"
+
+#~ msgid "Stamped hash and internal code"
+#~ msgstr "Hash estampado y código interno"
+
+#~ msgid "Context"
+#~ msgstr "Contexto"
+
+#~ msgid "Created at"
+#~ msgstr "Creado el"
+
+#~ msgid "Status"
+#~ msgstr "Estado"
+
+#~ msgid "Updated at"
+#~ msgstr "Actualizado el"
+
+#~ msgid "Next update"
+#~ msgstr "Próxima actualización"
+
+#~ msgid "included"
+#~ msgstr "incluido"
+
+#~ msgid "not included"
+#~ msgstr "no incluido"
+
+#~ msgid "Only show stamps to admins (this will hide any stamp to non-admins)"
+#~ msgstr ""
+#~ "Enseñar los estampes sólo a los administradores (este ajuste esconderá "
+#~ "cualquier estampe de los usuarios no-admins)"
+
+#~ msgid ""
+#~ "Allow Poorman's CRON (only executed on ajax and if CRON has not been "
+#~ "trigger for %s)"
+#~ msgstr ""
+#~ "Permitir el Poorman's CRON (sólo ejecutado desde ajax y si CRON no ha "
+#~ "sido llamado desde %s)"
+
+#~ msgid "Block CRON (useful to %s)"
+#~ msgstr "Bloquear CRON (útil para %s)"
+
+#~ msgid "Only in listings"
+#~ msgstr "Sólo en listados"
+
+#~ msgid "Plugin settings was reset successfuly"
+#~ msgstr "Los ajustes del plugin han "
+
+#~ msgid "Unsync'd"
+#~ msgstr "Desinc'd"
+
+#~ msgid "confirmed %s"
+#~ msgstr "confirmado %s"
+
+#~ msgid "created at %s, stamped at %s, confirmed at %s"
+#~ msgstr "creado el %s, estampado el %s, confirmado el %s"
+
+#~ msgid "Stamping in %s.."
+#~ msgstr "Estampando en %s.."
+
+#~ msgid "to stamp"
+#~ msgstr "que estampar"
+
+#~ msgid "last block"
+#~ msgstr "último bloque"
+
+#~ msgid "fully stamped"
+#~ msgstr "complementamente estampado"
+
+#~ msgid "Waiting for X blocks.."
+#~ msgstr "Esperando a X bloques.."
+
+#~ msgid "Waiting for 1 last block.."
+#~ msgstr "Esperando a un último bloque.."
+
+#~ msgid "stamping in %s.."
+#~ msgstr "estampando en %s.."
+
+#~ msgid "stamped %s"
+#~ msgstr "estampado %s"
+
+#~ msgid "stamped at %s, confirmed at %s"
+#~ msgstr "estampado a %s, confirmado a %s"
+
+#~ msgid "%d confirmations"
+#~ msgstr "%d confirmaciones"
+
+#~ msgid "Siblings"
+#~ msgstr "Hermanos"
+
+#~ msgid "Stamps status"
+#~ msgstr "Estado de los estampados"
+
+#~ msgid "Queuing for stamping.."
+#~ msgstr "Enviando para estampar.."
+
+#~ msgid ""
+#~ "It seems like the CRON task has not been called in the last %s (). Please "
+#~ "set up a CRON task every minute to: "
+#~ msgstr ""
+#~ "Parece que la tarea programada (CRON) no ha sido llamada en los últimos %s"
